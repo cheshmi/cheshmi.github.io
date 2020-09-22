@@ -33,8 +33,9 @@
 			Fallback for browsers that don't support pseudo elements.
 		*/
 
-		background: url('images/bg.png');
-	}
+		background: url("bg.png");
+		background-color: #cccccc
+	}	
 
 		body:before
 		{
@@ -52,7 +53,7 @@
 				set background-size to "cover".
 			*/
 
-			background: url('images/bg.png');
+			background: url("bg.png");
 		}
 
 		/*
@@ -765,6 +766,9 @@
 		.icon-vk:before{content:"\f189";}
 		.icon-weibo:before{content:"\f18a";}
 		.icon-renren:before{content:"\f18b";}
+		.icon-graduation-cap:before {content: "\f19d"; }
+		.icon-file-pdf:before {content: "\f1c1"; }
+		.icon-file-powerpoint:before {content: "\f1c4"; }
 		
  	#about 
 	{    font-size: .9em;
