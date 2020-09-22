@@ -61,25 +61,26 @@
 		/*
 			The pseudo element below applies a noise pattern to the background image. It's
 			meant to help mask blurriness, but you can remove it if you don't like it.
+			Source Sans Pro
 		*/
 
 	
 	body, input, textarea
 	{
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Palatino', sans-serif;
 		font-weight: 300;
-		color: #000;
+		color: #262626;
 	}
 	
 	strong, b
 	{
-		font-weight: 400;
-		color: #363636;
+		font-weight: 500;
+		color: #000000;
 	}
 
 	h1, h2, h3, h4,h5, h6
 	{
-		font-weight: 400;
+		font-weight: 450;
 		color: #363636;
 	}
 	
