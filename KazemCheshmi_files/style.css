@@ -773,6 +773,9 @@
 		.icon-file-pdf:before {content: "\f1c1"; }
 		.icon-file-powerpoint:before {content: "\f1c4"; }
 		.icon-plus-circle:before { content: "\f055"; }
+ 	
+
+
  	#about 
 	{    font-size: .9em;
 	
@@ -830,7 +833,8 @@
 	}
 
 	#awards {	  line-height: 135%; 
-         font-size: .95em; }
+         font-size: .95em; 
+     }
 
 #pubs {	  line-height: 135%; 
          font-size: .95em; }

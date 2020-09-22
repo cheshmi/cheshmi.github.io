@@ -32,13 +32,17 @@
 	{
 		font-size: 2.4em;
 		letter-spacing: -0.015em;
+		color: #33387a;
 	}
 
 	h2
 	{
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
-                border-bottom: 1px solid gray;
+		color: #33387a;
+
+  background:linear-gradient(black,#33387a) bottom left/* left or right or else */ no-repeat;
+  background-size:60% 1px;
 	
       }
 	
