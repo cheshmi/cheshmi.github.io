@@ -74,7 +74,7 @@
 	
 	strong, b
 	{
-		font-weight: 500;
+		font-weight: 600;
 		color: #000000;
 	}
 
@@ -84,6 +84,8 @@
 		color: #363636;
 	}
 	
+
+
 	blockquote
 	{
 		border-left: solid 0.5em #ddd;
@@ -828,8 +830,8 @@
         #awards .icon:before
 	{
 	    float: left;
-	    font-size: .5em;
-	    margin-right: 1em;	
+	    font-size: .95em;
+	    margin-right: 0.5em;	
 	}
 
 	#awards {	  line-height: 135%; 
