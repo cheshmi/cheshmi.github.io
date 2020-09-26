@@ -57,6 +57,7 @@
 		margin: 0 0 1.5em 0;
 	}
 
+/*li:nth-child(odd) { background:#f0f0f5; }*/
 	ul.links
 	{
 	}

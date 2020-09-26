@@ -839,7 +839,10 @@
      }
 
 #pubs {	  line-height: 135%; 
-         font-size: .95em; }
+         font-size: .95em; 
+         
+
+        }
 
 	#bio p  {  line-height: 125%; font-size: .9em; }
 
