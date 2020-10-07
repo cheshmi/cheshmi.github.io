@@ -35,8 +35,8 @@
 			Fallback for browsers that don't support pseudo elements.
 		*/
 
-		background: url("bg.png");
-		background-color: #cccccc
+		/*background: url("bg.png");*/
+		background-color: #1111111111
 	}	
 
 		body:before
@@ -55,7 +55,7 @@
 				set background-size to "cover".
 			*/
 
-			background: url("bg.png");
+			/*background: url("bg.png");*/
 		}
 
 		/*
@@ -840,7 +840,7 @@
 
 #pubs {	  line-height: 135%; 
          font-size: .95em; 
-         
+
 
         }
 
