@@ -2360,6 +2360,21 @@ input, select, textarea {
 				margin: 1.5em 0 2em 0;
 			}
 
+
+
+			#top .image img {
+				border-radius: 100%;
+			}
+
+			#edu {
+		
+			text-align: left;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-top: 1em;
+			padding-bottom: 0em;
+			}
+
 		/* Section/Article */
 
 			section, article {
@@ -2367,6 +2382,7 @@ input, select, textarea {
 			}
 
 		/* Button */
+
 
 			input[type="button"],
 			input[type="submit"],
@@ -2484,12 +2500,12 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 				#top .image {
 					width: 15em;
-					height: 15em;
+					height: 12em;
 					margin-bottom: 0;
 				}
 
