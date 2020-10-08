@@ -2305,12 +2305,26 @@ input, select, textarea {
 
 			#top {
 				text-align: center;
-				padding: 5em 0;
+				padding: 2em 0;
+				padding-left: 6em;
 			}
 
 				#top .image {
+					width: 24em;
+					height: 19em;
 					margin: 0 auto 2em auto;
 				}
+
+
+				/* Education */
+			#edu {
+		
+			text-align: left;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-top: 1em;
+			padding-bottom: 0em;
+			}
 
 	}
 
@@ -2362,10 +2376,9 @@ input, select, textarea {
 
 
 
-			#top .image img {
-				border-radius: 100%;
-			}
 
+
+		/* Education */
 			#edu {
 		
 			text-align: left;
@@ -2501,6 +2514,7 @@ input, select, textarea {
 
 			#top {
 				padding: 1em 0;
+				padding-left: 4em;
 			}
 
 				#top .image {
