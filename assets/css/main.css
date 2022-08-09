@@ -2058,8 +2058,8 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 3.5em;
-		line-height: 3.5em;
+		height: 2.5em;
+		line-height: 2.5em;
 	}
 
 		#nav ul {
@@ -2084,11 +2084,11 @@ input, select, textarea {
 			color: #fff;
 			text-decoration: none;
 			outline: 0;
-			font-weight: 600;
+			font-weight: 500;
 			border-radius: 8px;
 			color: #fff;
-			height: 2.5em;
-			line-height: 2.5em;
+			height: 2em;
+			line-height: 2em;
 			padding: 0 1.25em;
 		}
 
@@ -2147,7 +2147,7 @@ input, select, textarea {
 
 		#top p {
 			font-size: 1.25em;
-			line-height: 1.75em;
+			line-height: 1.5em;
 		}
 
 			#top p a {
@@ -2160,6 +2160,11 @@ input, select, textarea {
 	    font-size: .95em;
 	    margin-right: 0.5em;	
 	}
+
+	#students p {
+			font-size: 1.25em;
+			line-height: 1.5em;
+		}
 
 	
 	#edu {
