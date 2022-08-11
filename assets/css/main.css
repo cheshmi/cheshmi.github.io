@@ -1511,6 +1511,16 @@ input, select, textarea {
 
 		}
 
+
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}
+
+
 /* Form */
 
 	form label {
