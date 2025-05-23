@@ -86,12 +86,29 @@
 					</div>
 
 					<div class="col-12 col-12-medium col-12-small">
-						<section id="speakers">
-							<h2>Invited Speakers</h2>
-							<p>Mehran Ebrahimi, Autodesk Research, Toronto
+					<section id="speakers">
+					    <h2>Invited Speakers</h2>
+					    <div class="speaker-list">
+					        <div class="speaker-card">
+					            <h3>Mehran Ebrahimi</h3>
+					            <p class="affiliation">Principal Research Scientist, Autodesk Research, Toronto</p>
+					            <p class="talk-title"><strong>Title:</strong> Constrained Shape Gradients in Level-Set Topology Optimization: Bridging Geometry and Design
+					            	<br><strong>Abstract:</strong> This talk explores the integration of shape calculus and constrained optimization within the level-set framework for topology optimization. We explore the mathematical derivation of shape gradients in non-parametric, boundary-based approaches, highlighting the differential geometric complexities involved. Building upon this foundation, we introduce a novel framework that enables highly constrained shape updates along specified boundary components, accommodating affine transformations such as translation, rotation, and scaling. This approach is particularly beneficial for engineering applications requiring the preservation of specific geometric features, like maintaining a circular aperture for a pin connection while optimizing the surrounding structure. Central to our method is the Constrained Hilbert Space Extension, which ensures that the generated velocity fields for shape evolution adhere to imposed constraints while promoting descent directions for the objective function. Through canonical examples, we demonstrate the efficacy of this framework in achieving design objectives that balance flexibility and constraint, offering new avenues for advanced engineering design.</p>
+					        </div>
 
-						       <br> Adam Stinchcombe, University of Toronto</p>
-						</section>
+					        <div class="speaker-card">
+					            <h3>Adam Stinchcombe</h3>
+					            <p class="affiliation">Associate Professor, University of Toronto</p>
+					            <p class="talk-title"><strong>Title:</strong> High-Accuracy Computation for Electrical Impedance Tomography
+					            <br> <strong>Abstract:</strong> Electrical impedance tomography is a medical imaging technique that uses electric currents and potential measurements on the surface of the body to infer the electrical conductivity within the body. This is the classical mathematical problem of Calderón. We make the biologically reasonable assumption that the conductivity is piecewise constant. Our numerical approach to the inverse problem involves many solves of the forward problem which necessitates a fast and accurate numerical method for an elliptic interface problem for the electrostatic potential. We also impose the complete electrode model boundary condition which assumes no current off of electrodes and that the current through an electrode experiences a contact impedance before entering the body. We employ a boundary integral equation method and represent the potential as a sum of single layer potentials. The fast multiple method is used to accelerate the generalized minimal residual method for solving the integral equations. The integral equations are weakly singular as a result of the Green's function. The mixed boundary condition from the complete electrode model introduces another singularity at the edge of the electrodes. Our analysis reveals the nature of this singularity, which we exploit using generalized Gaussian quadrature. For the three dimensional problem, we use triangulated surfaces and the boundary element method. We obtain new analytical formulas for the integrals over triangles and develop a new geometric method for numerically computing integrals over triangles that uses geometric information of the true surface of integration. We expect our fast and accurate solver for the forward problem to lead to better reconstructions in electrical impedance tomography.</p>
+					        </div>
+
+					        <div class="speaker-card">
+					            <h3>Tim Davison</h3>
+					            <p class="affiliation">Professor, McMaster University</p>
+					        </div>
+					    </div>
+					</section>
 					</div>
 
 					<div class="col-12 col-12-medium col-12-small">
