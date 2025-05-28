@@ -92,20 +92,29 @@
 					        <div class="speaker-card">
 					            <h3>Mehran Ebrahimi</h3>
 					            <p class="affiliation">Principal Research Scientist, Autodesk Research, Toronto</p>
-					            <p class="talk-title"><strong>Title:</strong> Constrained Shape Gradients in Level-Set Topology Optimization: Bridging Geometry and Design
+					            <p class="talk-title" style="text-align: justify;"><strong>Title:</strong> Constrained Shape Gradients in Level-Set Topology Optimization: Bridging Geometry and Design
 					            	<br><strong>Abstract:</strong> This talk explores the integration of shape calculus and constrained optimization within the level-set framework for topology optimization. We explore the mathematical derivation of shape gradients in non-parametric, boundary-based approaches, highlighting the differential geometric complexities involved. Building upon this foundation, we introduce a novel framework that enables highly constrained shape updates along specified boundary components, accommodating affine transformations such as translation, rotation, and scaling. This approach is particularly beneficial for engineering applications requiring the preservation of specific geometric features, like maintaining a circular aperture for a pin connection while optimizing the surrounding structure. Central to our method is the Constrained Hilbert Space Extension, which ensures that the generated velocity fields for shape evolution adhere to imposed constraints while promoting descent directions for the objective function. Through canonical examples, we demonstrate the efficacy of this framework in achieving design objectives that balance flexibility and constraint, offering new avenues for advanced engineering design.</p>
 					        </div>
 
 					        <div class="speaker-card">
 					            <h3>Adam Stinchcombe</h3>
 					            <p class="affiliation">Associate Professor, University of Toronto</p>
-					            <p class="talk-title"><strong>Title:</strong> High-Accuracy Computation for Electrical Impedance Tomography
+					            <p class="talk-title" style="text-align: justify;"><strong>Title:</strong> High-Accuracy Computation for Electrical Impedance Tomography
 					            <br> <strong>Abstract:</strong> Electrical impedance tomography is a medical imaging technique that uses electric currents and potential measurements on the surface of the body to infer the electrical conductivity within the body. This is the classical mathematical problem of Calderón. We make the biologically reasonable assumption that the conductivity is piecewise constant. Our numerical approach to the inverse problem involves many solves of the forward problem which necessitates a fast and accurate numerical method for an elliptic interface problem for the electrostatic potential. We also impose the complete electrode model boundary condition which assumes no current off of electrodes and that the current through an electrode experiences a contact impedance before entering the body. We employ a boundary integral equation method and represent the potential as a sum of single layer potentials. The fast multiple method is used to accelerate the generalized minimal residual method for solving the integral equations. The integral equations are weakly singular as a result of the Green's function. The mixed boundary condition from the complete electrode model introduces another singularity at the edge of the electrodes. Our analysis reveals the nature of this singularity, which we exploit using generalized Gaussian quadrature. For the three dimensional problem, we use triangulated surfaces and the boundary element method. We obtain new analytical formulas for the integrals over triangles and develop a new geometric method for numerically computing integrals over triangles that uses geometric information of the true surface of integration. We expect our fast and accurate solver for the forward problem to lead to better reconstructions in electrical impedance tomography.</p>
 					        </div>
 
 					        <div class="speaker-card">
 					            <h3>Tim Davison</h3>
 					            <p class="affiliation">Professor, McMaster University</p>
+
+					            <p class="talk-title" style="text-align: justify;">
+					            <strong>Title:</strong> Multiple Access Computation Offloading
+					            <br> 
+					            <strong>Abstract:</strong> The provision of computing infrastructure at the “edges” of a wireless network would enable light weight devices to expand their capabilities by offloading latency-sensitive tasks. Potential applications include augmented reality systems, autonomous driving, and wireless control systems. Indeed, this is one of the services that is expected to be a source of value in 6G wireless networks. 
+					            <br> 
+								Effective use of this computing infrastructure would involve efficient selection of the devices that will offload their tasks, and joint allocation of the computing resource at the network access point and the communication resources to and from the access point. The computing resource allocation is dependent on the number of operations required by the task and the capabilities of the infrastructure, while the communication resource allocations are dependent on the description length of the task and the outcome, the “state” of the communication channels, and the capabilities of each transmitter. These allocations are coupled by the deadline by which each device requires the outcome of its task. The degrees of freedom in these resource allocations are determined by the overall system framework. 
+								<br> 
+								This talk seeks to outline the key principles in framework selection and resource allocation in a scenario in which the goal is to minimize the cost of the energy expended by the devices. To emphasize the principles, the problem is decomposed into an outer problem that selects devices for offloading, an intermediate problem of computing resource allocation and an inner problem of communication resource allocation. By designing a framework that enables flexible communication resource allocation and developing efficient resource allocation algorithms, we gain insight that yields efficient computing resource allocation algorithms, and efficient algorithms for the selection of offloading devices.</p>
 					        </div>
 					    </div>
 					</section>
@@ -135,7 +144,10 @@
 					<div class="col-12 col-12-medium col-12-small">
 						<section id="organizer">
 							<h2>Organization Team</h2>
-							<p>Kazem Cheshmi, Assistant Professor, Dept. of Electrical and Computer Engineering, McMaster University</p>
+							<p>Kazem Cheshmi, Assistant Professor, Dept. of Electrical and Computer Engineering, McMaster University
+								<br>
+								Special thanks to our volunteers from the SwiftWare lab: Hossein Albakri, Samira Jamali, Da Ma, Mehdi Salehi, Nana Poku, and Yue Xu.
+							</p>
 						</section>
 					</div>
 
@@ -148,7 +160,7 @@
     <thead>
         <tr>
             <th style="padding: 8px; text-align: left; background-color: #e0e0e0; width: 15%;">Timings</th>
-            <th style="padding: 8px; text-align: left; background-color: #e0e0e0;">Program and Presentation</th>
+            <th style="padding: 8px; text-align: left; background-color: #e0e0e0;">Program</th>
         </tr>
     </thead>
     <tbody>
@@ -158,7 +170,7 @@
         </tr>
         <tr>
             <td style="padding: 8px; text-align: left;">9:20 - 10</td>
-            <td style="padding: 8px; text-align: left;"><b>Invited Talk 1:</b> Prof. Tim Davidson, </td>
+            <td style="padding: 8px; text-align: left;"><b>Invited Talk 1:</b> Prof. Tim Davidson, Multiple Access Computation Offloading</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
             <td style="padding: 8px; text-align: left;">10 - 10:20</td>
@@ -168,7 +180,7 @@
             <td style="padding: 8px; text-align: left;">10:20 - 10:40</td>
             <td style="padding: 8px; text-align: left;"><b>Contributed Talk 2:</b> Dr. Fauzia Jabeen, Approximating Second-Order Parametric Sensitivities in Moderately Stiff Stochastic Discrete Biochemical Models</td>
         </tr>
-        <tr style="background-color: #f9f9f9;">
+        <tr style="background-color: #f9f9f9; border-top: 2px solid black; border-bottom: 2px solid black;">
             <td style="padding: 8px; text-align: left;">10:40 - 11:00</td>
             <td style="padding: 8px; text-align: left;">Coffee Break</td>
         </tr>
@@ -184,7 +196,7 @@
             <td style="padding: 8px; text-align: left;">12:00 - 12:20</td>
             <td style="padding: 8px; text-align: left;"><b>Contributed Talk 4:</b> Mr. Mykhailo Briazkalo, Generating Realistic Financial Time Series with Ambient Diffusion Models</td>
         </tr>
-        <tr style="background-color: #f9f9f9;">
+        <tr style="background-color: #f9f9f9; border-top: 2px solid black; border-bottom: 2px solid black;">
             <td style="padding: 8px; text-align: left;">12:20 - 1:40</td>
             <td style="padding: 8px; text-align: left;">Lunch Break</td>
         </tr>
@@ -200,7 +212,7 @@
             <td style="padding: 8px; text-align: left;">2:40 - 3:00</td>
             <td style="padding: 8px; text-align: left;"><b>Contributed Talk 6:</b> Mr. Da Ma, Sparsified Preconditioned Conjugate Gradient Solver on GPUs</td>
         </tr>
-        <tr style="background-color: #f9f9f9;">
+        <tr style="background-color: #f9f9f9; border-top: 2px solid black; border-bottom: 2px solid black;">
             <td style="padding: 8px; text-align: left;">3:00 - 3:20</td>
             <td style="padding: 8px; text-align: left;">Coffee Break</td>
         </tr>
